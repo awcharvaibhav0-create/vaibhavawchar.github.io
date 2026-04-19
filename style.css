@@ -1,0 +1,86 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background:#111;
+color:white;
+}
+
+/* NAVBAR */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+background:#000;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0377f2,#b0e906);
+}
+
+.btn{
+background:rgb(238, 180, 180);
+color:black;
+padding:10px 20px;
+border-radius:25px;
+text-decoration:none;
+margin-top:20px;
+}
+
+/* SECTION */
+
+.section{
+padding:60px;
+text-align:center;
+}
+
+/* GRID */
+
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+/* CARDS */
+
+.card{
+background:#222;
+padding:20px;
+margin:15px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.1);
+}
+
+/* FOOTER */
+
+footer{
+background:#000;
+text-align:center;
+padding:10px;
+}
